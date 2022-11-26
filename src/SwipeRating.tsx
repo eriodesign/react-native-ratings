@@ -24,22 +24,22 @@ const TYPES = {
   star: {
     source: STAR_IMAGE,
     color: "#f1c40f",
-    backgroundColor: "white"
+    backgroundColor: "#ff0000"
   },
   heart: {
     source: HEART_IMAGE,
     color: "#e74c3c",
-    backgroundColor: "white"
+    backgroundColor: "#ff0000"
   },
   rocket: {
     source: ROCKET_IMAGE,
     color: "#2ecc71",
-    backgroundColor: "white"
+    backgroundColor: "#ff0000"
   },
   bell: {
     source: BELL_IMAGE,
     color: "#f39c12",
-    backgroundColor: "white"
+    backgroundColor: "#ff0000"
   },
   custom: {}
 };
@@ -198,7 +198,7 @@ export default class SwipeRating extends Component<
     type: "star",
     ratingImage: STAR_IMAGE,
     ratingColor: "#f1c40f",
-    ratingBackgroundColor: "white",
+    ratingBackgroundColor: "#ffff00",
     ratingCount: 5,
     showReadOnlyText: true,
     imageSize: 40,
